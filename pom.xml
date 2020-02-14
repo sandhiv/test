@@ -4,7 +4,7 @@
   <groupId>com.broadridge</groupId>
   <artifactId>test</artifactId>
   <packaging>jar</packaging>
-  <version>1.1</version>
+  <version>1.0</version>
   <name>testproject</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -14,24 +14,7 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-	<dependency>
-  <groupId>com.broadridge</groupId>
-  <artifactId>testproject2</artifactId>
-  <version>1.0</version>
-</dependency>
-  </dependencies>
-  <distributionManagement>
-	<repository>
-		<id>bro</id>
-		<name>Internal Releases</name>
-		<url>http://13.126.143.94:8081/repository/raju-hosted-release/</url>
-	</repository>
- 
-	<snapshotRepository>
-		<id>bro</id>
-		<name>Internal Releases</name>
-		<url>http://13.126.143.94:8081/repository/raju-hosted-shapshot/</url>
-	</snapshotRepository>
 
-</distributionManagement>
+  </dependencies>
+
 </project>
